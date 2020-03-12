@@ -1,0 +1,472 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a,
+button {
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+button {
+    outline: none;
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+.btn,
+a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #000000;
+}
+p {
+    font-size: 11px;
+}
+h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+}
+h4 {
+    color: #333333;
+}
+/*------------- bloc 1 ---------------*/
+.bloc1 {
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, .5);
+    width: 100%;
+    clear: both;
+    background: 50% 50% no-repeat;
+    padding: 0 50px;
+    background-size: cover;
+    position: relative;
+}
+.bloc1-1 {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1000px;
+    padding: 20px 0px;
+}
+.bloc1-1-navbar {
+    margin-bottom: 0;
+    z-index: 1;
+}
+.navbar-brand {
+    height: auto;
+    padding: 3px 15px;
+    font-size: 25px;
+    font-weight: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.bloc1-1 li {
+    font-size: 16px;
+}
+.bloc1-1 .navbar-toggle .icon-bar {
+    color: rgba(0, 0, 0, .6);
+}
+.navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+}
+.navbar .nav {
+    padding-top: 2px;
+    margin-right: -16px;
+    float: right;
+    z-index: 1;
+}
+.nav > li {
+    float: left;
+    margin-top: 4px;
+    font-size: 16px;
+}
+.nav > li a:hover, .nav > li a:focus {
+    background: transparent;
+}
+@media (max-width: 767px) {
+.navbar-collapse {
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar .nav {
+    padding-top: 0;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    float: none!important;
+}
+.nav > li {
+    margin-top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .05);
+    text-align: left;
+    padding-left: 15px;
+    width: 100%;
+}
+.nav > li  a,
+.nav > li  a:hover {
+    color: #484848;
+}
+.bloc1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}}
+/*------------- bloc 2 ---------------*/
+.bloc2 {
+    background-color: #364577;
+    color: rgba(255, 255, 255, .7);
+    background: top no-repeat;
+    background-size: auto!important;
+    width: 100%;
+    clear: both;
+    padding: 0 50px;
+    position: relative;
+}
+.bloc2-banniere {
+    background-image: url(img/la-chouette-agence-banniere.jpg);
+    background-attachment: fixed;
+}
+.bloc2-1 {
+    padding: 100px 50px;
+}
+.bloc2-1-1 {
+    max-width: 600px;
+    margin: auto auto auto auto;
+}
+.texture-paper::before {
+    background: url(img/texture-paper.png);
+    background-size: 280px 280px;
+}
+.bloc-texture::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bloc2-1-1 h1 {
+    font-size: 32px;
+    color: #EE5C13;
+}
+    /* bouton  */
+.btn-contact {
+    background: #EE5C13;
+    margin-top: 22px;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, .08);
+    border-bottom-color: rgba(0, 0, 0, .1);
+    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
+    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    border-radius: 40px;
+}
+.btn-contact:hover, .btn-envoyer:hover {
+    background: #c27956;
+    color: #FFFFFF;
+}
+/*------------- bloc 3 ---------------*/
+.bloc3 {
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, .5);
+    width: 100%;
+    clear: both;
+    background: 50% 50% no-repeat;
+    padding: 0 50px;
+    background-size: cover;
+    position: relative;
+}
+.bloc3-1 {
+    max-width: 1000px;
+    padding: 50px;
+}
+.bloc3-1 .col-sm-12 p {
+    font-size: 20px;
+}
+.bloc3-1-1 {
+    max-width: 800px;
+    margin: auto auto auto auto;
+    box-shadow: 0px 0px 0px #000000;
+}
+.bloc3-1-1 span {
+    color: #364577;
+    border-color: #364577;
+    margin-bottom: 14px;
+    margin-top: 24px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    font-size: 60px;
+}
+.bloc3-1-2 {
+    margin-top: 80px;
+}
+.bloc3-1-2 p {
+    font-size: 20px;
+    font-style: italic;
+}
+/*------------- bloc 4 ---------------*/
+.bloc4 {
+    width: 100%;
+    clear: both;
+    background: 50% 50% no-repeat;
+    background-attachment: fixed;
+    padding: 0 50px;
+    background-size: cover;
+    position: relative;
+}
+.bloc4-banniere {
+    background-image: url(img/image-de-presentation.jpg);
+    background-attachment: fixed;
+}
+.bloc4-1 {
+    max-width: 1000px;
+    padding: 100px 50px;
+}
+.bloc4-1-1 {
+    background-color: rgba(0,0,0, 0.5);
+    padding: 40px 40px 40px 40px;
+    max-width: 600px;
+    margin: auto auto auto auto;
+}
+.bloc4 h2 {
+    color: #EE5C13;
+}
+.bloc4 p, .bloc4 a {
+    color: white;
+}
+.bloc4 a {
+    text-decoration: underline;
+}
+a[data-lightbox] {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+a[data-lightbox]:hover::before {
+    content: "+";
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .6);
+    color: #FFF;
+    font-weight: 100;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+a[data-lightbox]:hover img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+}
+/*------------- bloc 5 ---------------*/
+.bloc5 {
+    width: 100%;
+    clear: both;
+    background: 50% 50%;
+    padding: 0 50px;
+    background-repeat: repeat;
+    position: relative;
+}
+.bloc5-banniere {
+    background-image: url(img/lines-h2-bg.png);
+}
+.bloc5-1 {
+    max-width: 1000px;
+    padding: 100px 50px;
+}
+.bloc5 .col-sm-12 p {
+    font-size: 20px;
+}
+.bloc5-1-1 {
+    margin-bottom: 44px;
+    margin-top: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*------------- Diaporama ---------------*/
+#lightbox-modal {
+    display: flex;
+    align-items: center;
+}
+.snapshot-lb .modal-body {
+    padding-bottom: 45px;
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#lightbox-modal .modal-dialog {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto 0;
+}
+#lightbox-modal .modal-dialog img {
+    max-height: 90vh;
+    margin: 0 auto;
+}
+.close-lightbox {
+    color: #FFF;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    line-height: 30px;
+    padding: 0 9px 5px;
+    opacity: 0.3;
+}
+.close-lightbox:hover,
+.next-lightbox:hover,
+.prev-lightbox:hover {
+    opacity: 1.0;
+    color: #FFF;
+}
+.next-lightbox {
+    padding: 6px 8px 1px 13px;
+    right: 25px;
+}
+.next-lightbox, .prev-lightbox {
+    font-size: 20px;
+    background: rgba(0, 0, 0, .5);
+    transition: all .2s ease-in-out;
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+    opacity: 0.4;
+}
+.prev-lightbox {
+    padding: 6px 13px 1px 10px;
+    left: 25px;
+}
+.lightbox-caption {
+    margin-top: 20px;
+}
+/*------------- bloc 6 ---------------*/
+.bloc6 {
+    width: 100%;
+    clear: both;
+    background: 50% 50% no-repeat;
+    padding: 0 50px;
+    background-size: cover;
+    position: relative;
+}
+.bloc6-banniere {
+    background-image: url(img/la-chouette-agence-banniere.jpg);
+}
+.bloc6-1 {
+    max-width: 1000px;
+    padding: 100px 50px;
+}
+.bloc6-1 h2 {
+    color: #EE5C13;
+}
+/*------------- bloc 7 ---------------*/
+.bloc7 {
+    background-color: #EE5C13;
+    color: rgba(255, 255, 255, .7);
+    width: 100%;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-size: cover;
+    position: relative;
+}
+.bloc7-1 {
+    max-width: 1000px;
+}
+.bloc7 p {
+    color: #000000;
+}
+.bloc7 .col-sm-4 p {
+    text-align: left;
+    font-size: 16px;
+}
+.social {
+    color: #000000;
+    max-width: 400px;
+    margin: auto auto 40px auto;
+}
+.icon-md {
+    font-size: 30px !important;
+}
+a .icon-md:hover{
+    color: #FFF;
+}
+/*------------- Contact ---------------*/
+.bloc-contact1 {
+    background-color: #EE5C13;
+    color: #FFF;
+    width: 100%;
+    clear: both;
+    padding: 0 50px;
+    position: relative;
+}
+.contact-banniere {
+    background-image: url(img/dots-bg.png);
+}
+.bloc-contact1-1 {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1000px;
+    padding: 100px 50px;
+}
+.btn-envoyer {
+    background: #EE5C13;
+    color: #FFF;
+    margin: 22px 5px 5px 0;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.bloc-form {
+    max-width: 1000px;
+    padding: 100px 50px;
+}
+footer p {
+    text-align: center;
+}
+
+/* -----------  media queries -----------*/
+@media only screen and (max-width: 765px) {
+.bloc5, .bloc5-1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bloc4 {
+    padding: 0;
+}
+.bloc4-1 {
+    padding: 40px 0 40px 0;
+}
+}
